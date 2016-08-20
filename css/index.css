@@ -268,23 +268,25 @@ html {
 }
 
 .slide2 .name1, .slide2 .name2 {
-    top: 4rem;
+    bottom: 6rem;
 }
 
 .slide2 .sex1, .slide2 .sex2 {
-    top: 5rem;
+    bottom: 5rem;
 }
 
 .slide2 .student1, .slide2 .student2 {
-    top: 6rem;
+    bottom: 4rem;
 }
-
 .slide2 .school1, .slide2 .school2 {
-    top: 7rem;
+    bottom: 3rem;
 }
 
 .slide2 .phone1, .slide2 .phone2 {
-    top: 8rem;
+    bottom: 2rem;
+}
+.slide2 .phone2{
+    width: 4.2rem;
 }
 #page2 .ski {
     -webkit-animation: photoRotate 1s linear .3s both;
@@ -424,21 +426,6 @@ html {
     margin-left: .1rem;
 }
 
-.slide3 .footed {
-    opacity: 0;
-    position: absolute;
-    top: 9.2rem;
-    left: 50%;
-    margin-left: -2.1rem;
-    width: 4.2rem;
-    height: 2rem;
-    border-radius: .2rem;
-    background: green;
-}
-#page3 .footed{
-    -webkit-animation: bounceInUp 1s linear 1.5s both;
-    animation: bounceInUp 1s linear 1.5s both;
-}
 #page3 .ski {
     -webkit-animation: photoRotate 1s linear .3s both;
     animation: photoRotate 1s linear .3s both;
@@ -461,16 +448,16 @@ html {
     animation: bounceInLeft 1s linear .9s both;
 }
 #page3 .hand_r{
-    -webkit-animation: bounceInRight 1s linear .9s both;
-    animation: bounceInRight 1s linear .9s both;
+    -webkit-animation: bounceInRight 1s linear 1.2s both;
+    animation: bounceInRight 1s linear 1.2s both;
 }
 #page3 .foot_l{
-    -webkit-animation: bounceInUp 1s linear 1.2s both;
-    animation: bounceInUp 1s linear 1.2s both;
+    -webkit-animation: bounceInUp 1s linear 1.5s both;
+    animation: bounceInUp 1s linear 1.5s both;
 }
 #page3 .foot_r{
-    -webkit-animation: bounceInUp 1s linear 1.2s both;
-    animation: bounceInUp 1s linear 1.2s both;
+    -webkit-animation: bounceInUp 1s linear 1.8s both;
+    animation: bounceInUp 1s linear 1.8s both;
 }
 
 .slide4 .front {
@@ -600,7 +587,7 @@ html {
 .slide5 .micro{
     opacity: 0;
     position: absolute;
-    top: 3.5rem;
+    top: 3rem;
     left: 50%;
     margin-left: -1.5rem;
     width: 3rem;
@@ -624,10 +611,10 @@ html {
     font-family: hanyi_ngt;
 }
 .slide5 .call{
-    top: 7rem;
+    top: 6.5rem;
 }
 .slide5 .qq{
-    top: 8.3rem;
+    top: 7.8rem;
 }
 #page5 .tel_t{
     -webkit-animation: bounce 1s linear .3s infinite both;
@@ -797,8 +784,8 @@ html {
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate(-2.2rem, -1.8rem);
-        transform: translate(-2.2rem, -1.8rem);
+        -webkit-transform: translate(-2.2rem, -1.6rem);
+        transform: translate(-2.2rem, -1.6rem);
     }
 }
 @keyframes inn_aMove {
@@ -809,8 +796,8 @@ html {
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate(-2.2rem, -1.8rem);
-        transform: translate(-2.2rem, -1.8rem);
+        -webkit-transform: translate(-2.2rem, -1.6rem);
+        transform: translate(-2.2rem, -1.6rem);
     }
 }
 @-webkit-keyframes inn_bMove {
@@ -821,8 +808,8 @@ html {
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate(2.2rem, -2.4rem);
-        transform: translate(2.2rem, -2.4rem);
+        -webkit-transform: translate(2.2rem, -2rem);
+        transform: translate(2.2rem, -2rem);
     }
 }
 @keyframes inn_bMove {
@@ -833,8 +820,8 @@ html {
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate(2.2rem, -2.4rem);
-        transform: translate(2.2rem, -2.4rem);
+        -webkit-transform: translate(2.2rem, -2rem);
+        transform: translate(2.2rem, -2rem);
     }
 }
 @-webkit-keyframes inn_cMove {
@@ -845,8 +832,8 @@ html {
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate(.6rem, 4.2rem);
-        transform: translate(.6rem, 4.2rem);
+        -webkit-transform: translate(.6rem, 3.4rem);
+        transform: translate(.6rem, 3.4rem);
     }
 }
 @keyframes inn_cMove {
@@ -857,8 +844,8 @@ html {
     }
     100% {
         opacity: 1;
-        -webkit-transform: translate(.6rem, 4.2rem);
-        transform: translate(.6rem, 4.2rem);
+        -webkit-transform: translate(.6rem, 3.4rem);
+        transform: translate(.6rem, 3.4rem);
     }
 }
 
