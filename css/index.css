@@ -235,7 +235,7 @@ html {
 .slide2 .off {
     opacity: 0;
     color: #000;
-    text-align: center;
+    width: 4rem;
     font-size: .5rem;
     height: .6rem;
     line-height: .6rem;
