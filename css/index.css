@@ -998,7 +998,7 @@ html {
         transform: translate3d(4rem, 6rem,0);
     }
     50% {
-        /*opacity: 1;*/
+        opacity: 1;
         -webkit-transform: translate3d(0, 6rem,0);
         transform: translate3d(0, 6rem,0);
     }
@@ -1015,7 +1015,7 @@ html {
         transform: translate3d(4rem, 6rem,0);
     }
     50% {
-        /*opacity: 1;*/
+        opacity: 1;
         -webkit-transform: translate3d(0, 6rem,0);
         transform: translate3d(0, 6rem,0);
     }
@@ -1088,7 +1088,7 @@ html {
         transform: translate3d(4rem, 5rem,0);
     }
     50% {
-        /*opacity: 1;*/
+        opacity: 1;
         -webkit-transform: translate3d(0, 5rem,0);
         transform: translate3d(0, 5rem,0);
     }
@@ -1105,7 +1105,7 @@ html {
         transform: translate3d(4rem, 5rem,0);
     }
     50% {
-        /*opacity: 1;*/
+        opacity: 1;
         -webkit-transform: translate3d(0, 5rem,0);
         transform: translate3d(0, 5rem,0);
     }
